@@ -63,8 +63,10 @@ public static void main(String args[]) {
 	
 	switch(choice) {
 	case 1:
+		no++;
 		System.out.println("请输入学生的姓名");
 		String name = scan.nextLine();
+		
 		
 		System.out.println("请输入学生的年龄");
 		int age = scan.nextInt();
